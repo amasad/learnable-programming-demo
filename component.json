@@ -1,0 +1,15 @@
+{
+  "name": "component app seed",
+  "description": "component app seed",
+  "version": "0.0.1",
+  "local": [
+    "boot"
+  ],
+  "paths": [
+    "lib"
+  ],
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "remotes": []
+}

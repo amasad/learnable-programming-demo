@@ -1,0 +1,13 @@
+{
+  "name": "boot",
+  "description": "",
+  "dependencies": {},
+  "development": {},
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "boot.css"
+  ]
+}
