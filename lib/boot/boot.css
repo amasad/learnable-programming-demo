@@ -1,3 +1,62 @@
-div {
-  color: red;
+.columns {
+  padding: 0!important;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.plot {
+  overflow-x: scroll;
+overflow-y: hidden;
+}
+.dot {
+  fill: #BFCDD2;
+}
+.dot.highlight {
+  fill: red;
+}
+.dot.active {
+  fill: #596064;
+}
+.odd {
+  background: #E8F6F7;
+}
+.line {
+  stroke-width: 25.25;
+}
+.line:nth-child(even) {
+  stroke: #E8F6F7;
+}
+.line.first {
+  stroke: none;
+}
+
+.editor .CodeMirror-lines {
+  padding-top: 32px;
+  line-height: 25px;
+}
+html, body, .row, .columns, .editor, .result, .plot {
+  height: 100%;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+  border:0;
+}
+.row {
+  border: 1px solid #D5DADC;
+  border-bottom:none;
+}
+.step {
+  position: absolute;
+  top: 0;
+  color: #989EA2;
+  z-index: 1;
+  left: 50%;
 }

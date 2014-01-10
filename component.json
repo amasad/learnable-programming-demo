@@ -9,7 +9,9 @@
     "lib"
   ],
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "jofan/foundation-grid": "*"
+  },
   "development": {},
   "remotes": []
 }

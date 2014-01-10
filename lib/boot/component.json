@@ -1,7 +1,14 @@
 {
   "name": "boot",
   "description": "",
-  "dependencies": {},
+  "dependencies": {
+    "amasad/codemirror": "*",
+    "amasad/debugjs": "*",
+    "component/dom": "*",
+    "mbostock/d3": "*",
+    "component/debounce": "*",
+    "benatkin/codemirror-mode-javascript": "*"
+  },
   "development": {},
   "main": "index.js",
   "scripts": [
