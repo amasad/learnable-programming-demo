@@ -1,0 +1,21 @@
+{
+  "name": "learnable-programming-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/boot/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amasad/learnable-programming-demo.git"
+  },
+  "author": "amasad",
+  "license": "AAL",
+  "bugs": {
+    "url": "https://github.com/amasad/learnable-programming-demo/issues"
+  },
+  "dependencies": {
+    "component-minify": "~1.1.1"
+  }
+}
