@@ -44186,6 +44186,7 @@ function start(max, maxY, steps) {
    * @param {int} val
    */
   function gotoStep(val) {
+    if (val < 0) return;
     dom('.step-no').text(val);
     if (highlighted != null) {
       editor.removeLineClass(highlighted, 'highlight', 'highlight');
