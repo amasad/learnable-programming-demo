@@ -11,28 +11,40 @@
   stroke: #000;
   shape-rendering: crispEdges;
 }
+
 .plot {
   overflow-x: scroll;
-overflow-y: hidden;
+  overflow-y: hidden;
 }
+
 .dot {
   fill: #BFCDD2;
 }
+
 .dot.highlight {
   fill: red;
 }
+
 .dot.active {
   fill: #596064;
 }
+
 .odd {
   background: #E8F6F7;
 }
+
+.highlight .odd {
+  background: #FFFA75;
+}
+
 .line {
   stroke-width: 25.25;
 }
+
 .line:nth-child(even) {
   stroke: #E8F6F7;
 }
+
 .line.first {
   stroke: none;
 }
@@ -41,18 +53,26 @@ overflow-y: hidden;
   padding-top: 32px;
   line-height: 25px;
 }
+
+.editor .CodeMirror-lines .highlight {
+  background: #FFFA75;
+}
+
 html, body, .row, .columns, .editor, .result, .plot {
   height: 100%;
 }
+
 iframe {
   height: 100%;
   width: 100%;
   border:0;
 }
+
 .row {
   border: 1px solid #D5DADC;
   border-bottom:none;
 }
+
 .step {
   position: absolute;
   top: 0;
